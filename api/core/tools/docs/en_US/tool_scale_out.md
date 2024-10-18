@@ -16,7 +16,7 @@ Subsequently, all operations related to this tool will be carried out under this
 
 ```yaml
 identity: # Basic information of the tool provider
-  author: Dify # Author
+  author: Platform # Author
   name: google # Name, unique, no duplication with other providers
   label: # Label for frontend display
     en_US: Google # English label
@@ -62,7 +62,7 @@ After configuring the credential field, the effect is as follows:
 
 ```yaml
 identity:
-  author: Dify
+  author: Platform
   name: google
   label:
     en_US: Google
@@ -99,7 +99,7 @@ Still taking GoogleSearch as an example, we need to create a `tools` module unde
 ```yaml
 identity: # Basic information of the tool
   name: google_search # Tool name, unique, no duplication with other tools
-  author: Dify # Author
+  author: Platform # Author
   label: # Label for frontend display
     en_US: GoogleSearch # English label
     zh_Hans: 谷歌搜索 # Chinese label

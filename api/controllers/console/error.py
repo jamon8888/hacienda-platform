@@ -3,7 +3,7 @@ from libs.exception import BaseHTTPException
 
 class AlreadySetupError(BaseHTTPException):
     error_code = "already_setup"
-    description = "Dify has been successfully installed. Please refresh the page or return to the dashboard homepage."
+    description = "Platform has been successfully installed. Please refresh the page or return to the dashboard homepage."
     code = 403
 
 

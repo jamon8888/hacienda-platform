@@ -4,7 +4,7 @@
       "value": "en-US",
       "name": "English (United States)",
       "prompt_name": "English",
-      "example": "Hello, Dify!",
+      "example": "Hello, Platform!",
       "supported": true
     },
     {
@@ -39,7 +39,7 @@
       "value": "fr-FR",
       "name": "Français (France)",
       "prompt_name": "French",
-      "example": "Bonjour, Dify!",
+      "example": "Bonjour, Platform!",
       "supported": true
     },
     {
