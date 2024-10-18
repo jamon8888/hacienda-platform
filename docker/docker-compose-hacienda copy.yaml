@@ -264,7 +264,7 @@ services:
       - ssrf_proxy_network
       - default
 
-  # Frontend web application
+  # Frontend web application.
   web:
     image: hacienda.ai/platform-web:latest
     restart: always
