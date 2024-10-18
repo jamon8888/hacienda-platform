@@ -38,6 +38,10 @@ const translation = {
     duplicate: 'Duplikuj',
     rename: 'Zmień nazwę',
     audioSourceUnavailable: 'AudioSource jest niedostępny',
+    copyImage: 'Kopiuj obraz',
+    zoomOut: 'Pomniejszanie',
+    zoomIn: 'Powiększenie',
+    openInNewTab: 'Otwórz w nowej karcie',
   },
   placeholder: {
     input: 'Proszę wprowadzić',
@@ -514,6 +518,7 @@ const translation = {
       vectorHash: 'Wektor hash:',
       hitScore: 'Wynik trafień:',
     },
+    inputPlaceholder: 'Porozmawiaj z botem',
   },
   promptEditor: {
     placeholder:
@@ -593,6 +598,16 @@ const translation = {
   errorMsg: {
     fieldRequired: '{{field}} jest wymagane',
     urlError: 'Adres URL powinien zaczynać się od http:// lub https://',
+  },
+  fileUploader: {
+    uploadFromComputer: 'Przesyłanie lokalne',
+    pasteFileLink: 'Wklej link do pliku',
+    pasteFileLinkInputPlaceholder: 'Wpisz adres URL...',
+    uploadFromComputerReadError: 'Odczyt pliku nie powiódł się, spróbuj ponownie.',
+    uploadFromComputerUploadError: 'Przesyłanie pliku nie powiodło się, prześlij ponownie.',
+    uploadFromComputerLimit: 'Prześlij plik nie może przekraczać {{size}}',
+    pasteFileLinkInvalid: 'Nieprawidłowy link do pliku',
+    fileExtensionNotSupport: 'Rozszerzenie pliku nie jest obsługiwane',
   },
 }
 

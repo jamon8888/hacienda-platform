@@ -38,6 +38,10 @@ const translation = {
     duplicate: 'تکرار',
     rename: 'تغییر نام',
     audioSourceUnavailable: 'منبع صوتی در دسترس نیست',
+    copyImage: 'کپی تصویر',
+    zoomOut: 'کوچک نمایی',
+    zoomIn: 'بزرگنمایی',
+    openInNewTab: 'باز کردن در برگه جدید',
   },
   errorMsg: {
     fieldRequired: '{{field}} الزامی است',
@@ -503,6 +507,7 @@ const translation = {
       vectorHash: 'هش بردار:',
       hitScore: 'امتیاز بازیابی:',
     },
+    inputPlaceholder: 'با ربات صحبت کنید',
   },
   promptEditor: {
     placeholder: 'دستور خود را اینجا بنویسید، «{» را وارد کنید تا یک متغیر درج کنید، «/» را وارد کنید تا یک بلوک محتوای دستور درج کنید',
@@ -575,6 +580,16 @@ const translation = {
     deleteTip: 'برچسب در حال استفاده است، آیا آن را حذف می‌کنید؟',
     created: 'برچسب با موفقیت ایجاد شد',
     failed: 'ایجاد برچسب ناموفق بود',
+  },
+  fileUploader: {
+    uploadFromComputer: 'آپلود محلی',
+    pasteFileLink: 'پیوند فایل را جایگذاری کنید',
+    pasteFileLinkInputPlaceholder: 'URL را وارد کنید...',
+    uploadFromComputerReadError: 'خواندن فایل انجام نشد، لطفا دوباره امتحان کنید.',
+    uploadFromComputerUploadError: 'آپلود فایل انجام نشد، لطفا دوباره آپلود کنید.',
+    uploadFromComputerLimit: 'آپلود فایل نمی تواند از {{size}} تجاوز کند',
+    pasteFileLinkInvalid: 'پیوند فایل نامعتبر',
+    fileExtensionNotSupport: 'پسوند فایل پشتیبانی نمی شود',
   },
 }
 

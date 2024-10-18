@@ -38,6 +38,10 @@ const translation = {
     duplicate: 'Duplică',
     rename: 'Redenumește',
     audioSourceUnavailable: 'Sursa audio nu este disponibilă',
+    copyImage: 'Copiere imagine',
+    zoomOut: 'Micșorare',
+    zoomIn: 'Măriți',
+    openInNewTab: 'Deschide într-o filă nouă',
   },
   placeholder: {
     input: 'Vă rugăm să introduceți',
@@ -499,6 +503,7 @@ const translation = {
       vectorHash: 'Hash vector:',
       hitScore: 'Scor de recuperare:',
     },
+    inputPlaceholder: 'Vorbește cu Bot',
   },
   promptEditor: {
     placeholder: 'Scrieți aici prompt-ul, introduceți \'{}\' pentru a insera o variabilă, introduceți \'/\' pentru a insera un bloc de conținut prompt',
@@ -575,6 +580,16 @@ const translation = {
   errorMsg: {
     fieldRequired: '{{câmp}} este obligatoriu',
     urlError: 'URL-ul ar trebui să înceapă cu http:// sau https://',
+  },
+  fileUploader: {
+    uploadFromComputer: 'Încărcare locală',
+    pasteFileLink: 'Lipiți linkul fișierului',
+    pasteFileLinkInputPlaceholder: 'Introduceți adresa URL...',
+    uploadFromComputerReadError: 'Citirea fișierului a eșuat, vă rugăm să încercați din nou.',
+    uploadFromComputerUploadError: 'Încărcarea fișierului a eșuat, vă rugăm să încărcați din nou.',
+    uploadFromComputerLimit: 'Încărcarea fișierului nu poate depăși {{size}}',
+    pasteFileLinkInvalid: 'Link fișier nevalid',
+    fileExtensionNotSupport: 'Extensia de fișier nu este acceptată',
   },
 }
 

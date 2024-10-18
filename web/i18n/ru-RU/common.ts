@@ -38,6 +38,10 @@ const translation = {
     duplicate: 'Дублировать',
     rename: 'Переименовать',
     audioSourceUnavailable: 'AudioSource недоступен',
+    copyImage: 'Скопировать изображение',
+    zoomOut: 'Уменьшение масштаба',
+    zoomIn: 'Увеличить',
+    openInNewTab: 'Открыть в новой вкладке',
   },
   errorMsg: {
     fieldRequired: '{{field}} обязательно',
@@ -503,6 +507,7 @@ const translation = {
       vectorHash: 'Векторный хэш:',
       hitScore: 'Оценка совпадения:',
     },
+    inputPlaceholder: 'Поговорить с ботом',
   },
   promptEditor: {
     placeholder: 'Напишите здесь свое ключевое слово подсказки, введите \'{\', чтобы вставить переменную, введите \'/\', чтобы вставить блок содержимого подсказки',
@@ -575,6 +580,16 @@ const translation = {
     deleteTip: 'Тег используется, удалить его?',
     created: 'Тег успешно создан',
     failed: 'Ошибка создания тега',
+  },
+  fileUploader: {
+    uploadFromComputer: 'Локальная загрузка',
+    pasteFileLink: 'Вставить ссылку на файл',
+    pasteFileLinkInputPlaceholder: 'Введите URL...',
+    uploadFromComputerReadError: 'Чтение файла не удалось, пожалуйста, повторите попытку.',
+    uploadFromComputerUploadError: 'Загрузка файла не удалась, пожалуйста, загрузите еще раз.',
+    uploadFromComputerLimit: 'Файл загрузки не может превышать {{size}}',
+    pasteFileLinkInvalid: 'Неверная ссылка на файл',
+    fileExtensionNotSupport: 'Расширение файла не поддерживается',
   },
 }
 

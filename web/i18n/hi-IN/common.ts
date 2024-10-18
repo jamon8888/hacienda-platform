@@ -38,6 +38,10 @@ const translation = {
     duplicate: 'डुप्लिकेट',
     rename: 'नाम बदलें',
     audioSourceUnavailable: 'ऑडियो स्रोत अनुपलब्ध है',
+    copyImage: 'छवि कॉपी करें',
+    zoomOut: 'बाहर जाएं',
+    zoomIn: 'ज़ूम इन करें',
+    openInNewTab: 'नए टैब में खोलें',
   },
   errorMsg: {
     fieldRequired: '{{field}} आवश्यक है',
@@ -521,6 +525,7 @@ const translation = {
       vectorHash: 'वेक्टर हैश:',
       hitScore: 'पुनः प्राप्ति स्कोर:',
     },
+    inputPlaceholder: 'बॉट से बात करें',
   },
   promptEditor: {
     placeholder:
@@ -597,6 +602,16 @@ const translation = {
     deleteTip: 'टैग का उपयोग किया जा रहा है, क्या इसे हटाना है?',
     created: 'टैग सफलतापूर्वक बनाया गया',
     failed: 'टैग बनाना असफल रहा',
+  },
+  fileUploader: {
+    uploadFromComputer: 'स्थानीय अपलोड',
+    pasteFileLink: 'फ़ाइल लिंक पेस्ट करें',
+    pasteFileLinkInputPlaceholder: 'URL दर्ज करें...',
+    uploadFromComputerReadError: 'फ़ाइल पढ़ना विफल रहा, कृपया पुनः प्रयास करें.',
+    uploadFromComputerUploadError: 'फ़ाइल अपलोड विफल हुआ, कृपया फिर से अपलोड करें।',
+    uploadFromComputerLimit: 'अपलोड फ़ाइल {{size}} से ज़्यादा नहीं हो सकती',
+    pasteFileLinkInvalid: 'अमान्य फ़ाइल लिंक',
+    fileExtensionNotSupport: 'फ़ाइल एक्सटेंशन समर्थित नहीं है',
   },
 }
 
