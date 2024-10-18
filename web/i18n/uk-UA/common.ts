@@ -38,6 +38,10 @@ const translation = {
     duplicate: 'дублікат',
     rename: 'Перейменувати',
     audioSourceUnavailable: 'AudioSource недоступний',
+    copyImage: 'Скопіювати зображення',
+    zoomOut: 'Зменшити масштаб',
+    zoomIn: 'Збільшити масштаб',
+    openInNewTab: 'Відкрити в новій вкладці',
   },
   placeholder: {
     input: 'Будь ласка, введіть текст',
@@ -500,6 +504,7 @@ const translation = {
       vectorHash: 'Хеш вектора:',
       hitScore: 'Оцінка звернення:',
     },
+    inputPlaceholder: 'Поговоріть з ботом',
   },
   promptEditor: {
     placeholder: 'Пишіть свої підказки тут, вводьте \'{\', щоб вставити змінну чи \'/\', щоб вставити блок-підказку',
@@ -576,6 +581,16 @@ const translation = {
   errorMsg: {
     fieldRequired: '{{field}} є обов\'язковим',
     urlError: 'URL-адреса повинна починатися з http:// або https://',
+  },
+  fileUploader: {
+    uploadFromComputer: 'Локальне завантаження',
+    pasteFileLink: 'Вставити посилання на файл',
+    pasteFileLinkInputPlaceholder: 'Введіть URL-адресу...',
+    uploadFromComputerReadError: 'Не вдалося прочитати файл, будь ласка, спробуйте ще раз.',
+    uploadFromComputerUploadError: 'Не вдалося завантажити файл, будь ласка, завантажте ще раз.',
+    uploadFromComputerLimit: 'Файл завантаження не може перевищувати {{size}}',
+    pasteFileLinkInvalid: 'Неприпустиме посилання на файл',
+    fileExtensionNotSupport: 'Розширення файлу не підтримується',
   },
 }
 

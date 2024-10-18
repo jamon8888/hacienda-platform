@@ -38,6 +38,10 @@ const translation = {
     duplicate: 'Duplikat',
     rename: 'Umbenennen',
     audioSourceUnavailable: 'AudioSource ist nicht verfügbar',
+    copyImage: 'Bild kopieren',
+    zoomOut: 'Verkleinern',
+    zoomIn: 'Vergrößern',
+    openInNewTab: 'In neuem Tab öffnen',
   },
   placeholder: {
     input: 'Bitte eingeben',
@@ -499,6 +503,7 @@ const translation = {
       vectorHash: 'Vektorhash:',
       hitScore: 'Abrufwertung:',
     },
+    inputPlaceholder: 'Sprechen Sie mit dem Bot',
   },
   promptEditor: {
     placeholder: 'Schreiben Sie hier Ihr Aufforderungswort, geben Sie \'{\' ein, um eine Variable einzufügen, geben Sie \'/\' ein, um einen Aufforderungs-Inhaltsblock einzufügen',
@@ -575,6 +580,16 @@ const translation = {
   errorMsg: {
     fieldRequired: '{{field}} ist erforderlich',
     urlError: 'Die URL sollte mit http:// oder https:// beginnen',
+  },
+  fileUploader: {
+    uploadFromComputer: 'Lokaler Upload',
+    pasteFileLink: 'Dateilink einfügen',
+    pasteFileLinkInputPlaceholder: 'URL eingeben...',
+    uploadFromComputerReadError: 'Lesen der Datei fehlgeschlagen, bitte versuchen Sie es erneut.',
+    uploadFromComputerUploadError: 'Datei-Upload fehlgeschlagen, bitte erneut hochladen.',
+    uploadFromComputerLimit: 'Datei hochladen darf {{size}} nicht überschreiten',
+    pasteFileLinkInvalid: 'Ungültiger Dateilink',
+    fileExtensionNotSupport: 'Dateiendung nicht bedient',
   },
 }
 

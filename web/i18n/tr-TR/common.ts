@@ -38,6 +38,10 @@ const translation = {
     duplicate: 'Çoğalt',
     rename: 'Yeniden Adlandır',
     audioSourceUnavailable: 'AudioSource kullanılamıyor',
+    copyImage: 'Resmi Kopyala',
+    zoomOut: 'Uzaklaştırma',
+    zoomIn: 'Yakınlaştırma',
+    openInNewTab: 'Yeni sekmede aç',
   },
   errorMsg: {
     fieldRequired: '{{field}} gereklidir',
@@ -503,6 +507,7 @@ const translation = {
       vectorHash: 'Vektör Hash:',
       hitScore: 'Geri Alım Skoru:',
     },
+    inputPlaceholder: 'Bot ile konuş',
   },
   promptEditor: {
     placeholder: 'Prompt kelimenizi buraya yazın, değişken eklemek için \'{\' tuşuna, prompt içerik bloğu eklemek için \'/\' tuşuna basın',
@@ -575,6 +580,16 @@ const translation = {
     deleteTip: 'Etiket kullanılıyor, silinsin mi?',
     created: 'Etiket başarıyla oluşturuldu',
     failed: 'Etiket oluşturma başarısız oldu',
+  },
+  fileUploader: {
+    uploadFromComputer: 'Yerel yükleme',
+    pasteFileLink: 'Dosya bağlantısını yapıştır',
+    pasteFileLinkInputPlaceholder: 'URL\'yi giriniz...',
+    uploadFromComputerReadError: 'Dosya okuma başarısız oldu, lütfen tekrar deneyin.',
+    uploadFromComputerUploadError: 'Dosya yükleme başarısız oldu, lütfen tekrar yükleyin.',
+    uploadFromComputerLimit: 'Dosya Yükleme {{size}}\'ı aşamaz',
+    pasteFileLinkInvalid: 'Geçersiz dosya bağlantısı',
+    fileExtensionNotSupport: 'Dosya uzantısı desteklenmiyor',
   },
 }
 
