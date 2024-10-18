@@ -14,10 +14,6 @@ import {
 import { type CommonNodeType, type InputVar, InputVarType, type Node } from './types'
 import useConfig from './nodes/start/use-config'
 import type { StartNodeType } from './nodes/start/types'
-import {
-  FeaturesChoose,
-  FeaturesPanel,
-} from '@/app/components/base/features'
 import type { PromptVariable } from '@/models/debug'
 
 const Features = () => {
