@@ -95,7 +95,7 @@ class VariableEntityType(str, Enum):
     NUMBER = "number"
     EXTERNAL_DATA_TOOL = "external_data_tool"
     FILE = "file"
-    FILE_LIST = "file-list"
+    FILE_LIST = ""
 
 
 class VariableEntity(BaseModel):
