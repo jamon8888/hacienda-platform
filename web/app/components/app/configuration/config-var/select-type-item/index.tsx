@@ -13,7 +13,7 @@ export type ISelectTypeItemProps = {
 
 const i18nFileTypeMap: Record<string, string> = {
   'file': 'single-file',
-  'file-list': 'multi-files',
+  '': 'multi-files',
 }
 
 const SelectTypeItem: FC<ISelectTypeItemProps> = ({
