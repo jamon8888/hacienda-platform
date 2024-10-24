@@ -80,7 +80,7 @@ export const languages = [
   {
     value: 'en-US',
     name: 'English(United States)',
-    example: 'Hello, Dify!',
+    example: 'Hello, Platform!',
     supported: true,
   },
   {
@@ -98,7 +98,7 @@ export const languages = [
   {
     value: 'es-ES',
     name: 'Español(España)',
-    example: 'Saluton, Dify!',
+    example: 'Saluton, PLatform!',
     supported: false,
   },
   {
